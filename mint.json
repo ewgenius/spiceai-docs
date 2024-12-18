@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Cloud Portal",
+    "url": "https://spice.ai/login"
   },
   "tabs": [
     {
