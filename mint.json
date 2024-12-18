@@ -42,6 +42,11 @@
       "url": "https://mintlify.com/docs"
     },
     {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/PUCapX22En"
+    },
+    {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://blog.spice.ai/"
@@ -71,6 +76,14 @@
     {
       "group": "Cloud API Documentation",
       "pages": ["cloud-api-reference/introduction"]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "cloud-api-reference/endpoint/get",
+        "cloud-api-reference/endpoint/create",
+        "cloud-api-reference/endpoint/delete"
+      ]
     },
     {
       "group": "Platform API Documentation",
