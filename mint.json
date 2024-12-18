@@ -27,20 +27,11 @@
   },
   "tabs": [
     {
-      "name": "Cloud API Reference",
-      "url": "cloud-api-reference"
-    },
-    {
-      "name": "Platform API Reference",
-      "url": "platform-api-reference"
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
     {
       "name": "Discord",
       "icon": "discord",
@@ -63,6 +54,15 @@
       ]
     },
     {
+      "group": "Building Blocks",
+      "pages": [
+        "building-blocks/datasets-and-views",
+        "building-blocks/datasets",
+        "building-blocks/external-data-sources",
+        "building-blocks/spice-models"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
@@ -74,33 +74,29 @@
       ]
     },
     {
-      "group": "Cloud API Documentation",
-      "pages": ["cloud-api-reference/introduction"]
+      "group": "API Documentation",
+      "pages": ["api-reference/cloud-api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Platform API",
       "pages": [
-        "cloud-api-reference/endpoint/get",
-        "cloud-api-reference/endpoint/create",
-        "cloud-api-reference/endpoint/delete"
+        "api-reference/platform-api-reference/endpoint/get",
+        "api-reference/platform-api-reference/endpoint/create",
+        "api-reference/platform-api-reference/endpoint/delete"
       ]
     },
     {
-      "group": "Platform API Documentation",
-      "pages": ["platform-api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Cloud API",
       "pages": [
-        "platform-api-reference/endpoint/get",
-        "platform-api-reference/endpoint/create",
-        "platform-api-reference/endpoint/delete"
+        "api-reference/cloud-api-reference/endpoint/get",
+        "api-reference/cloud-api-reference/endpoint/create",
+        "api-reference/cloud-api-reference/endpoint/delete"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/spice_ai",
+    "github": "https://github.com/spiceai",
+    "linkedin": "https://linkedin.com/company/spice-ai"
   }
 }
