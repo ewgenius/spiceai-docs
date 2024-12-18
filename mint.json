@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#131353",
-    "light": "#335EFF",
-    "dark": "#131353",
+    "primary": "#335EFF",
+    "light": "#4c71f7",
+    "dark": "#335EFF",
     "anchors": {
-      "from": "#131353",
-      "to": "#335EFF"
+      "from": "#335EFF",
+      "to": "#4c71f7"
     }
   },
   "topbarLinks": [
@@ -43,7 +43,7 @@
     },
     {
       "name": "Community",
-      "icon": "slack",
+      "icon": "discord",
       "url": "https://mintlify.com/community"
     },
     {
