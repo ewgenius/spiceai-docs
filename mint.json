@@ -27,8 +27,12 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Cloud API Reference",
+      "url": "cloud-api-reference"
+    },
+    {
+      "name": "Platform API Reference",
+      "url": "platform-api-reference"
     }
   ],
   "anchors": [
@@ -65,15 +69,19 @@
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Cloud API Documentation",
+      "pages": ["cloud-api-reference/introduction"]
+    },
+    {
+      "group": "Platform API Documentation",
+      "pages": ["platform-api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "platform-api-reference/endpoint/get",
+        "platform-api-reference/endpoint/create",
+        "platform-api-reference/endpoint/delete"
       ]
     }
   ],
